@@ -46,9 +46,95 @@ h4 {
   margin-top: 1.25em;
 }
 
+body {
+  margin: 0;
+  font-family: var(--ff-sans);
+  font-size: var(--fz-body);
+  font-weight: var(--fw-S);
+  line-height: 1.4;
+  color: var(--clr-primary-pale);
+  background: var(--clr-neutral-90);
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 1.5rem 1.5rem;
+}
+
+main {
+  margin: auto;
+}
+
+.hero {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+}
+
+.card {
+  max-width: 350px;
+  padding:1.5rem;
+  background: var(--clr-neutral-80);
+  border-radius: 15px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.stats {
+  font-size: 16px;
+  font-weight: var(--fw-M);
+}
+
+.card_title {
+  font-size: 22px;
+}
+
+.card_title a,
+.profile_id a {
+  color: var(--clr-neutral-00);
+  transition: color 300ms ease-in 100ms;
+}
+
+.variant {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px var(--clr-neutral-70);
+  padding-bottom: 1.25em;
+  letter-spacing: 1px;
+}
+
+.variant img {
+  vertical-align: -.2em;
+  margin-right: .25em;
+}
+
+.ether {
+  font-weight: var(--fw-L);
+  text-transform: uppercase;
+  color: var(--clr-primary-shine);
+}
+
+.avatar {
+  width: 2.125em;
+  border: solid 1px var(--clr-neutral-00);
+  border-radius: 2em;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 2rem auto 0;
 }
 
 .attribution a {
