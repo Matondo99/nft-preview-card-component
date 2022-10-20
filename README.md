@@ -12,7 +12,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
-    - [The Man Remember 😶](#the-man-remember-)
+    - [The Man Remembers 😶](#the-man-remembers-)
     - [The Piece of Cake 🍰](#the-piece-of-cake-)
   - [Author](#author)
 
@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- [My Frontend Mentor Solution](https://your-solution-url.com) of the nft-preview-card-component.
+- [My Frontend Mentor Solution](https://www.frontendmentor.io/solutions/scaring-to-glow-out-of-a-card-component-WlxtQEuJWG) of the nft-preview-card-component.
 - [Live site](https://matondo99.github.io/nft-preview-card-component/) of the nft-preview-card-component.
 
 ## My process
@@ -45,7 +45,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-### The Man Remember 😶
+### The Man Remembers 😶
 
 Since `::before` and `::after` css pseudo elements insert their content relative to the content of the element they are attached to **they are useless on self-contained element like the `img` element.**
 
