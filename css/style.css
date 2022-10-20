@@ -1,0 +1,56 @@
+:root {
+  --clr-primary-pale: hsl(215, 51%, 70%);
+  --clr-primary-shine: hsl(178, 100%, 50%);
+  --clr-primary-shine-o: hsla(178, 100%, 50%, .5);
+  --clr-neutral-00: hsl(0, 0%, 100%);
+  --clr-neutral-70: hsl(215, 32%, 27%);
+  --clr-neutral-80: hsl(216, 50%, 16%);
+  --clr-neutral-90: hsl(217, 54%, 11%);
+  --ff-sans: 'Outfit', sans-serif;
+  --fz-body: 18px;
+  --fw-S: 300;
+  --fw-M: 400;
+  --fw-L: 600;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+}
+
+.flowise>* {
+  margin-bottom: 1rem;
+}
+
+.flowise>*:last-child {
+  margin-bottom: 0;
+}
+
+.flowise>*+* {
+  margin-top: 1.25em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
